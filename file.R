@@ -18,4 +18,5 @@ view(cars)
 ggplot(cars, aes(x = displ, y = cty,colour = "blue")) +
   geom_point() +
   geom_smooth(method = "lm",se = TRUE)
+plot(cars)
 
